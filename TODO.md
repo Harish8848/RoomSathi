@@ -1,1 +1,0 @@
-- [x] Edit components/listing-grid.tsx to add availability indicator in listing cards

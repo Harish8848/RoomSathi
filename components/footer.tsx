@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-foreground">RoomSathi</h3>
+            <h3 className="text-lg font-semibold text-foreground">KothaSathi</h3>
             <p className="text-sm text-muted-foreground">
               Find your perfect room or apartment in your city. Connecting people for better living experiences.
             </p>
@@ -77,7 +77,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 shrink-0" />
-                <span>support@roomsathi.com</span>
+                <span>support@kothasathi.com</span>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} RoomSathi. All rights reserved.
+            © {new Date().getFullYear()} KothaSathi. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="#" className="text-sm text-muted-foreground hover:text-primary transition">

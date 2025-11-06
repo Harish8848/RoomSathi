@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log('🌱 Seeding RoomSathi database...');
+  console.log('🌱 Seeding KothaSathi database...');
 
   // Clear existing data
   await prisma.searchHistory.deleteMany();

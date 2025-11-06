@@ -14,7 +14,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 hover:opacity-90 transition">
           <MapPin className="w-6 h-6 md:w-8 md:h-8" />
-          <span className="text-xl md:text-2xl font-bold">RoomSathi</span>
+          <span className="text-xl md:text-2xl font-bold">KothaSathi</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
